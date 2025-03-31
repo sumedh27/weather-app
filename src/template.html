@@ -10,14 +10,24 @@
       <h1>Weather App</h1>
     </header>
     <main>
+      <img
+        src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExY3R1bHhreDYwb2ZyeHdxbXNhejNmdDRjcXpyOHN4N3hiYWN5ODJycyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/SgNC860SwSYZcZ4Igc/giphy.gif"
+        alt="Weather GIF"
+      />
       <form>
         <label for="city-name">Enter City Name</label>
-        <input type="text" id="city-name" name="city-name">
+        <input type="text" id="city-name" name="city-name" />
         <button type="submit">Search</button>
       </form>
-      <p>Temperature in Celsius</p>
-      <p>Temperature in Fahrenheit</p>
-      <img src="#" alt="Weather GIF">
+      <div class="container">
+        <p class="weather-address"></p>
+        <p class="weather-condition"></p>
+        <p class="temp-celsius"></p>
+        <p class="temp-fahrenheit"></p>
+      </div>
+      <div class="error">
+        <p></p>
+      </div>
     </main>
   </body>
 </html>

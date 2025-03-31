@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+header {
+  background-color: rgb(55, 55, 55);
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  height: 623px;
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.error.active {
+  background-color: red;
+}
+
+.container.active {
+  background-color: lightgreen;
+}
+
+img {
+  height: 321px;
+  width: 480px;
+}
